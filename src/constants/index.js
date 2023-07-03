@@ -30,6 +30,8 @@ import {
     pwacrypto,
     vueweather,
     code,
+    seo,
+    vuecryptos
   } from "../assets";
   
   export const navLinks = [
@@ -228,6 +230,118 @@ import {
       live_demo_link: "https://knowlee-fw4c.onrender.com/",
     },
     {
+      name: "Ecommerce de Servicio Vue & Firebase (2023)",
+      description:
+        "Ecommerce de contratación de servicio de diseño web hecho con Vue & Firebase. Interfaz de cliente y administrador. Incluye funcionalidades como login, registro, panel de administrador, realización de compras, chat entre usuarios y más.",
+      tags: [
+        {
+          name: "vuejs",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: seo,
+      source_code_link: "https://github.com/SantiCerdeira/vue-firebase",
+      // live_demo_link: "https://github.com/SantiCerdeira/vue-firebase",
+    },
+    {
+      name: "Ecommerce de Servicio PHP & Laravel y MySQL (2022)",
+      description:
+        "Ecommerce de contratación de servicio de diseño web hecho con laravel & PHP. Interfaz de cliente y administrador. Incluye un blog, y funcionalidades como carrito de compras, checkout, login, registro, panel de administrador, implementación del sandbox de MercadoPago y más.",
+      tags: [
+        {
+          name: "php",
+          color: "white-text-gradient",
+        },
+        {
+          name: "laravel",
+          color: "brown-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: code,
+      source_code_link: "https://github.com/SantiCerdeira/php-web-design",
+      // live_demo_link: "https://santicerdeira.github.io/vue-weather/",
+    },
+    {
+      name: "Ecommerce PHP y MySQL (2022)",
+      description:
+        "Ecommerce de compra de camisetas retro de fútbol hecho con PHP. Interfaz de cliente y administrador. Incluye funcionalidades como carrito de compras, login, registro, panel de administrador y más.",
+      tags: [
+        {
+          name: "php",
+          color: "white-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: code,
+      source_code_link: "https://github.com/SantiCerdeira/ecommerce-php-mysql",
+      // live_demo_link: "https://santicerdeira.github.io/vue-weather/",
+    },
+    {
+      name: "Vue Weather App (2022)",
+      description:
+        "Proyecto de Vue que consume una API con las temperaturas de distintas ciudades del mundo.",
+      tags: [
+        {
+          name: "vuejs",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: vueweather,
+      source_code_link: "https://github.com/SantiCerdeira/vue-weather",
+      live_demo_link: "https://santicerdeira.github.io/vue-weather/",
+    },
+    {
+      name: "Vue Cryptos App (2022)",
+      description:
+        "Proyecto de Vue que consume una API con los valores de las 100 criptomonedas con mayor capitalización de mercado.",
+      tags: [
+        {
+          name: "vuejs",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: vuecryptos,
+      source_code_link: "https://github.com/SantiCerdeira/vue-cryptos",
+      live_demo_link: "https://santicerdeira.github.io/vue-cryptos//",
+    },
+    {
+      name: "PWA CryptoWorld con JS e IndexedDB",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "bootstrap",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "indexedDB",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: pwacrypto,
+      source_code_link: "https://github.com/SantiCerdeira/pwa-crypto",
+      live_demo_link: "https://santicerdeira.github.io/pwa-crypto",
+    },
+    {
       name: "Ecommerce Front-End JavaScript (2021)",
       description:
         "Ecommerce Front-End desarrollado con JavaScript vanilla con funcionalidades principales de un ecommerce como agregar al carrito, modificar cantidades, ver prductos y más.",
@@ -266,126 +380,6 @@ import {
       image: productpage,
       source_code_link: "https://github.com/SantiCerdeira/nike-shoes",
       live_demo_link: "https://santicerdeira.github.io/nike-shoes/",
-    },
-    {
-      name: "PWA CryptoWorld con JS e IndexedDB",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "bootstrap",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "indexedDB",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: pwacrypto,
-      source_code_link: "https://github.com/SantiCerdeira/pwa-crypto",
-      live_demo_link: "https://santicerdeira.github.io/pwa-crypto",
-    },
-    {
-      name: "Ecommerce de Servicio PHP & Laravel (2022)",
-      description:
-        "Ecommerce de contratación de servicio de diseño web hecho con laravel & PHP. Interfaz de cliente y administrador. Incluye funcionalidades como carrito de compras, checkout, login, registro, panel de administrador, implementación del sandbox de MercadoPago y más.",
-      tags: [
-        {
-          name: "php",
-          color: "white-text-gradient",
-        },
-        {
-          name: "laravel",
-          color: "brown-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: vueweather,
-      source_code_link: "https://github.com/SantiCerdeira/vue-weather",
-      live_demo_link: "https://santicerdeira.github.io/vue-weather/",
-    },
-    {
-      name: "Vue Weather App (2022)",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "vuejs",
-          color: "violet-text-gradient",
-        },
-      ],
-      image: vueweather,
-      source_code_link: "https://github.com/SantiCerdeira/vue-weather",
-      live_demo_link: "https://santicerdeira.github.io/vue-weather/",
-    },
-    {
-      name: "Ecommerce de Camisetas de fútbol PHP (2022)",
-      description:
-        "Ecommerce de compra de camisetas retro de fútbol hecho con PHP. Interfaz de cliente y administrador. Incluye funcionalidades como carrito de compras, login, registro, panel de administrador y más.",
-      tags: [
-        {
-          name: "php",
-          color: "white-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: vueweather,
-      source_code_link: "https://github.com/SantiCerdeira/vue-weather",
-      live_demo_link: "https://santicerdeira.github.io/vue-weather/",
-    },
-    {
-      name: "API con Node & express (2023)",
-      description:
-        "API básica hecha con node y express que permite crear, leer, editar y eliminar alumnos.",
-      tags: [
-        {
-          name: "nodejs",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "express",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "red-text-gradient",
-        },
-      ],
-      image: code,
-      source_code_link: "https://github.com/SantiCerdeira/alumnos-api",
-      // live_demo_link: "https://santicerdeira.github.io/vue-weather/",
-    },
-    {
-      name: "API con Node & express (2023)",
-      description:
-        "API básica hecha con node y express que permite filtrar proyectos por su categoría y por su usuario.",
-      tags: [
-        {
-          name: "nodejs",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "express",
-          color: "gray-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "red-text-gradient",
-        },
-      ],
-      image: code,
-      source_code_link: "https://github.com/SantiCerdeira/proyectos-api",
-      // live_demo_link: "https://santicerdeira.github.io/vue-weather/",
     },
   ];
   

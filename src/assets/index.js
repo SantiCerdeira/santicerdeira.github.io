@@ -43,6 +43,8 @@ import pwacrypto from "./pwa-crypto.png";
 import vueweather from "./vue-weather.png";
 import code from "./code.png";
 import knowlee from './knowlee.png'
+import seo from './seo.png'
+import vuecryptos from './vue-cryptos.png'
 
 export {
   logo,
@@ -84,5 +86,7 @@ export {
   pwacrypto,
   vueweather,
   code,
-  knowlee
+  knowlee,
+  seo,
+  vuecryptos
 };
