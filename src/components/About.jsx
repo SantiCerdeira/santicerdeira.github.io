@@ -2,7 +2,6 @@ import React from 'react'
 import {Tilt} from 'react-tilt'
 import {motion} from 'framer-motion'
 import { styles } from '../styles'
-// import { services } from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
@@ -50,6 +49,12 @@ const About = () => {
             </div>
           </motion.div>
       </Tilt>
+
+      <div className='flex gap-1 text-white my-4 text-lg'>
+        <a href="https://github.com/SantiCerdeira?tab=repositories" target='_blank' className='w-full lg:w-4/12 rounded-lg bg-gradient-to-b from-gray-800 to-gray-700 p-5 text-center hover:scale-105 transform duration-200'>Github</a>
+        <a href="https://www.linkedin.com/in/santiago-cerdeira/" target='_blank' className='w-full lg:w-4/12 rounded-lg bg-gradient-to-b from-blue-800 to-blue-700 p-5 text-center hover:scale-105 transform duration-200'>LinkedIn</a>
+        <a href="/CV-Español.pdf" download className='w-full lg:w-4/12 rounded-lg bg-gradient-to-b from-blue-900 to-blue-800 p-5 text-center hover:scale-105 transform duration-200'>CV</a>
+      </div>
     </>
   )
 

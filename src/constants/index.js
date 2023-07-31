@@ -149,28 +149,29 @@ import {
   
   const experiences = [
     {
-      title: "Diseño web Webflow",
+      title: "Desarrollo web (blog) con React / Webflow",
       company_name: "Failory",
       icon: failory,
       iconBg: "#FFFFFF",
-      date: "Jun 2020 - Dic 2020",
+      date: "Jun 2021 - Dic 2021",
       points: [
         "Diseño del sitio web en Figma.",
-        "Creación del diseño en Webflow.",
-        "Mantenimiento y actualización del sitio web."
+        "Desarrollo del sitio web con React.",
+        "Mantenimiento y actualización del sitio web.",
+        "Luego, desarrollo del sitio en Webflow.",
       ],
     },
     {
-      title: "MERN Ecommerce",
+      title: "Desarrollo de E-commerce con MERN",
       company_name: "Diminutivo",
       icon: diminutivo,
       iconBg: "#FFFFFF",
-      date: "May 2021 - Oct 2021",
+      date: "Mar 2021 - Jun 2021",
       points: [
-        "Desarrollo del front-end un ecommerce con React.",
-        "Desarrollo del back-end del ecommerce con Node.js y express.",
+        "Desarrollo del front-end un ecommerce con React y Tailwind.",
+        "Desarrollo del back-end del ecommerce con Node.js, express y MongoDB.",
         "Implementación de MercadoPago como método de pago.",
-        "Mantenimiento del sitio web.",
+        "Mantenimiento del sitio web y del panel de administración.",
       ],
     }
   ];
@@ -317,12 +318,12 @@ import {
       ],
       image: vuecryptos,
       source_code_link: "https://github.com/SantiCerdeira/vue-cryptos",
-      live_demo_link: "https://santicerdeira.github.io/vue-cryptos//",
+      live_demo_link: "https://santicerdeira.github.io/vue-cryptos/",
     },
     {
       name: "PWA CryptoWorld con JS e IndexedDB",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "PWA con noticias acerca de la blockchain y valores de criptomonedas.",
       tags: [
         {
           name: "bootstrap",

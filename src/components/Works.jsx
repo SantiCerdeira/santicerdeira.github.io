@@ -1,15 +1,17 @@
-import {Tilt} from 'react-tilt'
-import { motion } from 'framer-motion'
-import { styles } from '../styles'
-import { github, eye } from '../assets'
-import { SectionWrapper } from '../hoc'
-import { projects } from '../constants'
-import { fadeIn, textVariant } from '../utils/motion'
+import { useEffect, useState } from 'react';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { github, eye } from '../assets';
+import { SectionWrapper } from '../hoc';
+import { projects } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link, live_demo_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_demo_link }) => {
   return (
     <motion.div
-      variants={fadeIn('up', 'spring',index * 0.5, 0.75)}
+      // variants={fadeIn('up', 'spring',index * 0.5, 0.75)}
+      variants={textVariant}
     >
       <Tilt
         options = {{
@@ -67,10 +69,11 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p
-         variants={fadeIn('', '', 0.1, 1)}
+        //  variants={fadeIn('', '', 0.1, 1)}
+         variants={textVariant}
          className='mt-3 text-secondary text-[17px] w-full leading-[30px]'
         >
-          Estos son los proyectos que he realizado en mi carrera como desarrollador web, algunos de ellos son proyectos personales y otros son proyectos que he realizado en la universidad.
+          Estos son los proyectos que he realizado en mi carrera como desarrollador web, algunos de ellos son proyectos personales y profesionales y otros son proyectos que he realizado en la universidad.
           Todos los proyectos tienen un link hacia su live demo y hacia su repositorio en github.
         </motion.p>
       </div>

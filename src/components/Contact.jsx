@@ -30,9 +30,13 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true)
 
+    if(!form.message || !form.name || !form.email) {
+      setLoading(false)
+      alert('Completá todos los campos.')
+    }
+
     emailjs.send(
       // FIJARME ESTO DE QUE TENGA ACCESO A ENVIAR MAILS CON MI NOMBRE
-      // VALIDACION DE DATOS
       'service_k2mp03f', 
       'template_2cptd3k', 
       {
@@ -47,7 +51,7 @@ const Contact = () => {
       .then(() => {
         setLoading(false)
         //  CAMBIAR
-        alert('Thank you! I will get back to you as soon as possible.')
+        alert('¡Gracias! Me contactaré lo antes posible.')
         setForm({
           name: '',
           email: '',
